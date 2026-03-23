@@ -11,7 +11,7 @@ variables:
 
 stages:
 - stage: Build
-  displayName: 'Build Stage'
+  displayName: 'Build Stage'     #build stage not defined
   jobs:
   - job: Build
     displayName: 'Build the application' #needs changes
