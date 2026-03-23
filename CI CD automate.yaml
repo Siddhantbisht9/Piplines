@@ -24,3 +24,5 @@ stages:
     - script: |
         dotnet build --configuration $(buildConfiguration)
       displayName: 'Build the application'
+    - dotnet build --configuration $(buildConfiguration
+       displayName: 'Build the application' #build task not working needs changes
