@@ -7,8 +7,7 @@ pool:
   vmImage: 'ubuntu-latest'  # Use 'windows-latest' for Windows builds
 
 variables:
-  buildConfiguration: 'Release'
-
+  buildConfiguration: 'Release'   #requires web app deployed to add the script on it
 stages:
 - stage: Build
   displayName: 'Build Stage'     #build stage not defined needs changes
