@@ -12,4 +12,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml                
   displayName: 'Run a multi-line script'   #test task not working needs changes
-path: azure-pipelines.yml
+- path: azure-pipelines.yml
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName:  'Run as per pipesline' #test task not working needs changes
