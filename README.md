@@ -1,1 +1,1 @@
-# Piplines
+This is for Pipeline to work on Web Apps but the traction is failing as there are no subscriptions to run the piplelines on.

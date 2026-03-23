@@ -6,10 +6,10 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'  # Use 'windows-latest' for Windows builds
 
-variables:
+variables:         
   buildConfiguration: 'Release'   #requires web app deployed to add the script on it
 stages:
-- stage: Build
+- stage: Build       #build is not defined qand configured as the subscription is not available
   displayName: 'Build Stage'     #build stage not defined needs changes
   jobs:
   - job: Build
